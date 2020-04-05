@@ -193,14 +193,31 @@ h2
 }
 @media (max-width: 1028px)
 {
+    .container-fluid
+{
+    padding: 0%;
+}
+#features
+{  
+  
+    padding: 0% 0%;
+    text-align: center;
+}
 #title
 {
    text-align: center;
+}
+.Download_button
+{
+   
+ margin: 5% 10% 5% 4%;   
 }
 .title_image
  { 
     position: static;
     transform: rotate(0);
      margin-left: 0;
+     height: 90%;
  }
+
 }
